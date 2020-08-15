@@ -1,0 +1,45 @@
+.float {
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+}
+
+.aaa {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.aba {
+    width: 300px;
+}
+
+h1 {
+    font-size: smaller;
+}
+
+img {
+    float: right;
+    margin-top: -250px;
+}
+
+.bbb {
+    margin-left: 50px;
+}
+
+.bba {
+    height: 80px;
+    width: 300px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color: blue;
+}
+
+#error_msg {
+    background-color: chartreuse;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact form</title>
+        <link rel="stylesheet" type="text/css" href="contactform.css">
+        <script defer src="contactform.js"></script>
+    </head>
+    <body>
+        <div id="error_msg"></div>
+        <form id="myform" method="GET" onsubmit="return validate()">
+            <div class="float">
+                <input id="nameF" class="aaa" type="text" placeholder="First Name"> <br>
+                <input id="nameL" class="aba" type="text" placeholder="Last Name">
+                <h1>Gender</h1>
+                <input class="bbb" type="radio" name="gender" value="male">M<br>
+                <input class="bbb" type="radio" name="gender" value="female">F<br>
+                <input id="message" class="bba" type="text" placeholder="Your message here"><br>
+                <button id="send" type="submit"> Submit </button>
+            </div>
+        </form>
+            <img src="contact.jpg">
+    </body>
+</html>
